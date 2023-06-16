@@ -478,7 +478,7 @@ body {
 }
 
 .sidebar::-webkit-scrollbar-thumb {
-  /* background-color: transparent; */
+  background-color: transparent;
 }
 
 .sidebar:is(:hover, :focus-within)::-webkit-scrollbar-thumb {
