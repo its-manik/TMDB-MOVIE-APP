@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NikTv</title>
+    <meta
+      name="description"
+      content="niktv is a popular movie app made by Manik"
+    />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/svg+xml" />
+
+    <!-- googe fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css links -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- custom js links -->
+    <script src="./assets/js/global.js" defer></script>
+    <script src="./assets/js/detail.js" type="module"></script>
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img
+          src="assets/images/logo.png"
+          width="140"
+          height="32"
+          alt="NikTv Home"
+        />
+      </a>
+      <div class="searchBox" search-box>
+        <div class="searchWrapper" search-wrapper>
+          <input
+            type="text"
+            name="search"
+            placeholder="Search any movies"
+            aria-label="search movies"
+            search-field
+            class="searchField"
+            autocomplete="off"
+          />
+          <img
+            src="./assets/images/search.png"
+            alt="search"
+            class="leadingIcon"
+            width="24"
+            height="24"
+          />
+        </div>
+
+        <button class="searchBtn" search-toggler>
+          <img
+            src="./assets/images/close.png"
+            alt="close search box"
+            width="24"
+            height="24"
+          />
+        </button>
+      </div>
+
+      <button class="searchBtn" search-toggler menu-close>
+        <img
+          src="./assets/images/search.png"
+          width="24"
+          height="24"
+          alt="open search box"
+        />
+      </button>
+
+      <button class="menuBtn" menu-btn menu-toggler>
+        <img
+          src="./assets/images/menu.png"
+          width="24"
+          height="24"
+          alt="open menu"
+          class="menu"
+        />
+        <img
+          src="./assets/images/menu-close.png"
+          alt="close menu"
+          width="24"
+          height="24"
+          class="close"
+        />
+      </button>
+    </header>
+
+    <!-- Sidebar  -->
+<main>
+    <nav sidebar class="sidebar">
+    </nav>
+    <div class="overlay" overlay menu-toggler></div>
+
+    <article class="container" page-content>
+      <!-- Movie Detail  -->
+
+      <!-- Movie List  -->
+
+    </article>
+    <!-- <section class="movieList" aria-label="upcoming movie">
+      <div class="titleWrapper">
+        <h3 class="titleLarge">You May Also Like</h3>
+      </div>
+
+      <div class="sliderList">
+        <div class="sliderInner">
+          <div class="movieCard">
+            <figure class="posterBox cardBanner">
+              <img src="assets/images/slider-control.jpg" class="imgCover" />
+            </figure>
+
+            <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+            <div class="metaList">
+              <div class="metaItem">
+                <img
+                  src="./assets/images/star.png"
+                  width="20"
+                  height="20"
+                  alt="rating"
+                  loading="lazy"
+                />
+                <span class="span">6.4</span>
+              </div>
+
+              <div class="cardBadge">2023</div>
+            </div>
+
+            <a
+              href="detail.html"
+              class="cardBtn"
+              title="Puss in Boots: The Last Wish"
+            ></a>
+          </div>
+          <div class="movieCard">
+            <figure class="posterBox cardBanner">
+              <img src="assets/images/slider-control.jpg" class="imgCover" />
+            </figure>
+
+            <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+            <div class="metaList">
+              <div class="metaItem">
+                <img
+                  src="./assets/images/star.png"
+                  width="20"
+                  height="20"
+                  alt="rating"
+                  loading="lazy"
+                />
+                <span class="span">6.4</span>
+              </div>
+
+              <div class="cardBadge">2023</div>
+            </div>
+
+            <a
+              href="detail.html"
+              class="cardBtn"
+              title="Puss in Boots: The Last Wish"
+            ></a>
+          </div>
+          <div class="movieCard">
+            <figure class="posterBox cardBanner">
+              <img src="assets/images/slider-control.jpg" class="imgCover" />
+            </figure>
+
+            <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+            <div class="metaList">
+              <div class="metaItem">
+                <img
+                  src="./assets/images/star.png"
+                  width="20"
+                  height="20"
+                  alt="rating"
+                  loading="lazy"
+                />
+                <span class="span">6.4</span>
+              </div>
+
+              <div class="cardBadge">2023</div>
+            </div>
+
+            <a
+              href="detail.html"
+              class="cardBtn"
+              title="Puss in Boots: The Last Wish"
+            ></a>
+          </div>
+          <div class="movieCard">
+            <figure class="posterBox cardBanner">
+              <img src="assets/images/slider-control.jpg" class="imgCover" />
+            </figure>
+
+            <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+            <div class="metaList">
+              <div class="metaItem">
+                <img
+                  src="./assets/images/star.png"
+                  width="20"
+                  height="20"
+                  alt="rating"
+                  loading="lazy"
+                />
+                <span class="span">6.4</span>
+              </div>
+
+              <div class="cardBadge">2023</div>
+            </div>
+
+            <a
+              href="detail.html"
+              class="cardBtn"
+              title="Puss in Boots: The Last Wish"
+            ></a>
+          </div>
+          <div class="movieCard">
+            <figure class="posterBox cardBanner">
+              <img src="assets/images/slider-control.jpg" class="imgCover" />
+            </figure>
+
+            <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+            <div class="metaList">
+              <div class="metaItem">
+                <img
+                  src="./assets/images/star.png"
+                  width="20"
+                  height="20"
+                  alt="rating"
+                  loading="lazy"
+                />
+                <span class="span">6.4</span>
+              </div>
+
+              <div class="cardBadge">2023</div>
+            </div>
+
+            <a
+              href="detail.html"
+              class="cardBtn"
+              title="Puss in Boots: The Last Wish"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  </main>
+  </body>
+</html>
